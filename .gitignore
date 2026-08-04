@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional dotenv files
+.env
+.env.*.local
+
+# OS specific files
+.DS_Store
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Editor & Workspace cache
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.figma/
+
+# ==========================================
+# KHUSUS AGEN AI & CATATAN LOKAL (Tidak di-push)
+# ==========================================
+# Mengecualikan file konfigurasi agent lokal/Claude machine-specific 
+# yang sifatnya sementara atau privat.
+CLAUDE.local.md
+AGENTS.local.md
+*.local.md
+
+# Catatan: README.md dan file .md utama lainnya TETAP AKAN DI-TRACK oleh Git.
