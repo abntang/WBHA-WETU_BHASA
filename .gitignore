@@ -41,8 +41,8 @@ dist-ssr/
 # ==========================================
 # Mengecualikan file konfigurasi agent lokal/Claude machine-specific 
 # yang sifatnya sementara atau privat.
-CLAUDE.local.md
-AGENTS.local.md
+CLAUDE.md
+AGENTS.md
 *.local.md
 
 # Catatan: README.md dan file .md utama lainnya TETAP AKAN DI-TRACK oleh Git.
